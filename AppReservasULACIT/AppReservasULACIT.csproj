@@ -138,8 +138,10 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HabitacionManager.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HotelManager.cs" />
+    <Compile Include="Controllers\ReservaManager.cs" />
     <Compile Include="Controllers\UsuarioManager.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -154,6 +156,13 @@
     </Compile>
     <Compile Include="frmHabitacion.aspx.designer.cs">
       <DependentUpon>frmHabitacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmReserva.aspx.cs">
+      <DependentUpon>frmReserva.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmReserva.aspx.designer.cs">
+      <DependentUpon>frmReserva.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -202,6 +211,7 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="frmHabitacion.aspx" />
+    <Content Include="frmReserva.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Login.aspx" />
