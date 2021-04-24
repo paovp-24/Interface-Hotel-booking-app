@@ -31,6 +31,10 @@
                         <li><a runat="server" href="frmHotel.aspx">Hotel</a></li>
                         <li><a runat="server" href="frmHabitacion.aspx">Habitacion</a></li>
                         <li><a runat="server" href="frmReserva.aspx">Reserva</a></li>
+                        <li><a runat="server" href="frmAlquiler.aspx">Alquiler</a></li>
+                        <li><a runat="server" href="frmVehiculo.aspx">Vehiculo</a></li>
+                        <li><a runat="server" href="frmBoleto.aspx">Boleto</a></li>
+                        <li><a runat="server" href="frmVuelo.aspx">Vuelo</a></li>
                     </ul>
                 </div>
             </div>

@@ -138,17 +138,35 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AlquilerManager.cs" />
+    <Compile Include="Controllers\BoletoManager.cs" />
     <Compile Include="Controllers\HabitacionManager.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HotelManager.cs" />
     <Compile Include="Controllers\ReservaManager.cs" />
     <Compile Include="Controllers\UsuarioManager.cs" />
+    <Compile Include="Controllers\VehiculoManager.cs" />
+    <Compile Include="Controllers\VueloManager.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmAlquiler.aspx.cs">
+      <DependentUpon>frmAlquiler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmAlquiler.aspx.designer.cs">
+      <DependentUpon>frmAlquiler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmBoleto.aspx.cs">
+      <DependentUpon>frmBoleto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmBoleto.aspx.designer.cs">
+      <DependentUpon>frmBoleto.aspx</DependentUpon>
     </Compile>
     <Compile Include="frmHabitacion.aspx.cs">
       <DependentUpon>frmHabitacion.aspx</DependentUpon>
@@ -164,6 +182,20 @@
     <Compile Include="frmReserva.aspx.designer.cs">
       <DependentUpon>frmReserva.aspx</DependentUpon>
     </Compile>
+    <Compile Include="frmVehiculo.aspx.cs">
+      <DependentUpon>frmVehiculo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmVehiculo.aspx.designer.cs">
+      <DependentUpon>frmVehiculo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmVuelo.aspx.cs">
+      <DependentUpon>frmVuelo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmVuelo.aspx.designer.cs">
+      <DependentUpon>frmVuelo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -174,11 +206,15 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Models\Alquiler.cs" />
+    <Compile Include="Models\Boleto.cs" />
     <Compile Include="Models\Habitacion.cs" />
     <Compile Include="Models\Hotel.cs" />
     <Compile Include="Models\LoginRequest.cs" />
     <Compile Include="Models\Reserva.cs" />
     <Compile Include="Models\Usuario.cs" />
+    <Compile Include="Models\Vehiculo.cs" />
+    <Compile Include="Models\Vuelo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registrar.aspx.cs">
       <DependentUpon>Registrar.aspx</DependentUpon>
@@ -210,8 +246,12 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="frmAlquiler.aspx" />
+    <Content Include="frmBoleto.aspx" />
     <Content Include="frmHabitacion.aspx" />
     <Content Include="frmReserva.aspx" />
+    <Content Include="frmVehiculo.aspx" />
+    <Content Include="frmVuelo.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Login.aspx" />
