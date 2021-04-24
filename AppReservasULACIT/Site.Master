@@ -35,6 +35,8 @@
                         <li><a runat="server" href="frmVehiculo.aspx">Vehiculo</a></li>
                         <li><a runat="server" href="frmBoleto.aspx">Boleto</a></li>
                         <li><a runat="server" href="frmVuelo.aspx">Vuelo</a></li>
+                        <li><a runat="server" href="frmAvion.aspx">Avion</a></li>
+                        <li><a runat="server" href="frmAeropuerto.aspx">Aeropuerto</a></li>
                     </ul>
                 </div>
             </div>
